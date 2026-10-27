@@ -1,0 +1,22 @@
+# Python environments and cache
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Local uploads, exports, and temporary data
+uploads/
+app_state/
+*.sqlite
+*.db
+*.log
+.DS_Store
+Thumbs.db
